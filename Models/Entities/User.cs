@@ -39,6 +39,9 @@ namespace ElSaiys.Models
         [Required, MaxLength(50)]
         public string Slug { get; set; }
 
+        [MaxLength(7)]
+        public int VerificationCode { get; set; }
+
         [Required]
         public string RoleId { get; set; }
         public Role Role { get; set; }

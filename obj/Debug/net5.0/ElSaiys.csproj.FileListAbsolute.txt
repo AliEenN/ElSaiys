@@ -63,4 +63,7 @@ C:\Users\ali\source\repos\ElSaiys\ElSaiys\obj\Debug\net5.0\ElSaiys.dll
 C:\Users\ali\source\repos\ElSaiys\ElSaiys\obj\Debug\net5.0\ref\ElSaiys.dll
 C:\Users\ali\source\repos\ElSaiys\ElSaiys\obj\Debug\net5.0\ElSaiys.pdb
 C:\Users\ali\source\repos\ElSaiys\ElSaiys\obj\Debug\net5.0\ElSaiys.genruntimeconfig.cache
+C:\Users\ali\source\repos\ElSaiys\ElSaiys\bin\Debug\net5.0\MailKit.dll
+C:\Users\ali\source\repos\ElSaiys\ElSaiys\bin\Debug\net5.0\MimeKit.dll
+C:\Users\ali\source\repos\ElSaiys\ElSaiys\bin\Debug\net5.0\BouncyCastle.Crypto.dll
 C:\Users\ali\source\repos\ElSaiys\ElSaiys\obj\Debug\net5.0\ElSaiys.csproj.AssemblyReference.cache

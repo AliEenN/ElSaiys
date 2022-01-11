@@ -1,6 +1,9 @@
 using ElSaiys.Helper;
 using ElSaiys.Models;
 using ElSaiys.Repositories;
+using ElSaiys.Services;
+using ElSaiys.Services.Interfaces;
+using ElSaiys.Settings;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -33,6 +36,9 @@ namespace ElSaiys
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.Configure<MailSettings>(Configuration.GetSection("MailSettings"));
+            services.AddTransient<IMailingSrvice, MailingSrvice>();
+
             services.AddControllers();
 
             services.AddDbContext<ApplicationDbContext>(

@@ -114,7 +114,7 @@ namespace ElSaiys.Repositories
             };
         }
 
-        private void GenerateHash(string password, out byte[] passwordHash, out byte[] passwordSalt)
+        public void GenerateHash(string password, out byte[] passwordHash, out byte[] passwordSalt)
         {
             using(var hash = new HMACSHA512())
             {
